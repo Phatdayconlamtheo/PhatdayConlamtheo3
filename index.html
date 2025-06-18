@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>TTS Pro Creator V7.1</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>TTS Pro Creator V7.1 🚀</h1>
+
+  <div class="controls">
+    <button onclick="startReading()">▶️ Đọc</button>
+    <button onclick="stopReading()">⏹ Dừng</button>
+    <button onclick="startRecording()">🔴 Ghi âm</button>
+    <button onclick="stopRecording()">💾 Dừng ghi & lưu</button>
+    <button onclick="splitText()">🧠 Tách câu</button>
+    <button onclick="downloadMP3()">📤 Tải file .mp3</button>
+  </div>
+
+  <textarea id="textInput">Tâm là gốc của muôn pháp. Nếu giữ được tâm thanh, thì mọi hoàn cảnh đều là cõi Phật.</textarea>
+  <div id="output"></div>
+  <div id="timer">⏱ 00:00</div>
+
+  <script src="recorder.js"></script>
+  <script src="editor.js"></script>
+  <script src="tts_api.js"></script>
+</body>
+</html>

@@ -1,91 +1,30 @@
-body 
 
-{
-  background-image: url('images/phat-bg.jpg');
-  background-size: 100%;
-  background-attachment: fixed;
-}
-
-{
-  font-family: "Segoe UI", sans-serif;
-  margin: 0;
-  padding: 0;
-  background: #fdf6e3;
-  color: #333;
-}
-
-header {
-  text-align: center;
-  padding: 20px 10px;
-  background: #f5deb3;
-}
-
-.subtitle {
-  font-style: italic;
-  color: #555;
-}
-
-.circle-menu {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 12px;
+body {
+  font-family: Arial, sans-serif;
   padding: 20px;
+  background-color: #111;
+  color: #eee;
 }
-
-.button {
-  background-color: #d4a373;
-  color: white;
-  padding: 12px 20px;
-  border-radius: 30px;
-  text-decoration: none;
-  font-size: 16px;
-  transition: background 0.3s;
-}
-
-.button:hover {
-  background-color: #b88c5b;
-}
-
-.content {
-  max-width: 1200px;
-  margin: auto;
-  padding: 20px;
-}
-
-.video-row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
-}
-
-.video-box {
-  flex: 1 1 50%;
-  min-width: 300px;
-}
-
-.video-box iframe {
+textarea {
   width: 100%;
-  height: auto;
-  border: none;
+  height: 200px;
+  margin-bottom: 10px;
 }
-
-.more-videos {
-  text-align: center;
-  margin-top: 20px;
+.highlight {
+  background-color: #444;
+  padding: 5px;
+  margin-bottom: 5px;
+  border-radius: 5px;
 }
-
-.more-videos h3 a {
-  text-decoration: none;
-  color: #b36b00;
-  font-weight: bold;
+.playing {
+  background-color: #222;
+  border-left: 5px solid #0f0;
 }
-
-footer {
-  text-align: center;
-  font-size: 14px;
-  padding: 20px;
-  background: #eee;
-  color: #666;
+.controls button {
+  margin-right: 10px;
+}
+#timer {
+  font-size: 1.2em;
+  margin-top: 10px;
+  color: #0f0;
 }
